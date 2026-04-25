@@ -1,4 +1,4 @@
-# Task Manager API – Backend
+# Task Manager – Backend
 
 A clean, layered REST API for task management built with **Express + TypeScript**.  
 Designed with **repository pattern** – currently using in‑memory storage, ready to switch to PostgreSQL with minimal changes.
@@ -53,7 +53,7 @@ src/
 
 ```bash
 git clone <repo-url>
-cd task-api-backend
+cd task-manager-backend
 npm install
 ```
 
@@ -75,12 +75,6 @@ npm run dev
 
 Server starts at `http://localhost:3000`
 
-### 4. Build for Production
-
-```bash
-npm run build
-npm start
-```
 
 ---
 
@@ -135,9 +129,6 @@ npm start
 
 **Response:** `204 No Content`
 
-### `GET /tasks?status=completed` – Filter
-
-**Response (200 OK):** array of completed tasks only.
 
 ---
 
